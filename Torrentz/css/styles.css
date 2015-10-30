@@ -30,6 +30,13 @@ body {
     text-align: center;
 }
 
+.menu ul li:hover {
+    background-color: #90B2D5;
+    border-bottom: solid 10px #369;
+    border-radius: 0 0 5px 5px;
+    color: #FFF;
+}
+
 .menu ul li a {
     height: 60px;
     text-decoration: none;
@@ -129,3 +136,4 @@ footer {
     text-align: center;
     padding: 40px;
 }
+
