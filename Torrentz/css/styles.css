@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+}
+
+#container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.menu ul li {
+    display: inline-block;
+    border-left: 1px solid #FFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.menu ul li a {
+    height: 60px;
+    text-decoration: none;
+    color: #FFF;    
+}
+
+header {
+    position: relative;
+    height: 60px;
+    background-color: #369;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+h1 {
+    
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    margin-top: 10px;   
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    height: 60px;
+}
+
+main {
+    position: relative;
+}
+
+form {
+    background-color: #FFB090;
+    border-radius: 10px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+input[type=search] {
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    background: #fff url(../img/zoom.png) no-repeat;
+    margin-left: 10px;
+    width: 77%;
+    padding: 12px;
+    height: 29px;
+    background-position: 98% 50%;
+}
+
+input[type=submit] {
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 20%;
+    height: 29px;
+    background-color: #fff;
+}
+
+p {
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+aside {
+    text-align: center;
+}
+
+fieldset {
+    padding-top: 10px;
+}
+
+aside ul li {
+    display: inline-block;
+    border-left: 1px solid #000;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #369;
+    padding: 0 10px 0 10px;
+}
+
+aside ul li:first-child {
+    border-left: 0;
+}
+
+.item-aside {
+    margin-top: 25px; 
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+}
